@@ -2,9 +2,6 @@
 
 cd
 
-# install zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -16,5 +13,8 @@ brew install nvm
 
 # create ssh keys
 ssh-keygen -t ed25519 -C "mitch.prewitt@asurion.com"
+
+# install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
